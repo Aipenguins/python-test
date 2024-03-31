@@ -20,3 +20,4 @@ class TestAPI:
         extract_data={"access_token":res.json()['access_token']}
         write_yaml(extract_data)
         print(res.text)
+        print("commit test")
